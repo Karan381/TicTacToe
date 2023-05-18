@@ -98,7 +98,7 @@ public class GameManager : MonoBehaviour
         winnerPannel.SetActive(true);
         if (whoturn == 0)
         {
-            winText.text = "Player X wins";
+            winText.text = "Player Z wins";
             xScore++;
             xScoreText.text = xScore.ToString();
 
